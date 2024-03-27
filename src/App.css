@@ -1,0 +1,97 @@
+.padre {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.imagen-inicio{
+    height: 800px;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.caja{
+
+    border-radius: 20px;
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+
+}
+
+.Botonr{
+    background-color: rgb(95, 95, 255);
+    border-radius: 40px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Botonr2{
+    background-color: red;
+    border-radius: 40px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cuadro {
+    margin: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.App {
+    background-color: blue;
+}
+
+.titulo {
+    background-color: rgb(0, 0, 167);
+    width: 110%;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.img-i{
+max-width: 50%;
+}
+
+.container {
+    margin: 10px;
+}
+
+.t1 {
+    background-color: black;
+    border-radius: 30px;
+    color: greenyellow;
+    text-align: center;
+    font-size: 100px;
+    font-family: fantasy;
+}
+.Buscador{
+    width: 90%;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: white;
+    
+}
+
+.Botonp{
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+}
+
+@media (max-width: 768px) {
+.t1, .container, .img-i, .titulo, .App, .cuadro, .Botonr, .Botonr2, .caja, .imagen-inicio, .padre, .Buscador,.Botonp {
+        font-size: 20px;
+    }
+}
